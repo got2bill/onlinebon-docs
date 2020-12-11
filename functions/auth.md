@@ -2,7 +2,7 @@
 
 ### Authenticate
 To authenticate with OnlineBon you need to provide a **username** (email-address) and your private **password**.
-![Authentication](./images/auth.jpg)
+![Authentication](./images/authenticate.png)
 
 After the authentication the following rules apply to decide, which actions the user has available:
 

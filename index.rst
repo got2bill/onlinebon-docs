@@ -12,12 +12,3 @@ OnlineBon Documentation
    
    functions/auth.md
    functions/pos.md
-
-
-
-Contents
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
