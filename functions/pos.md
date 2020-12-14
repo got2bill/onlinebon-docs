@@ -35,6 +35,8 @@ A user with an active session can end this session every time. When ending the s
 
 ### List productgroups
 
+**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v1/productgroups/list-productgroups
+
 Productgroups can be be structured within multiple layers. Initially only productgroups of the root layer will be displayed.
 
 If you click on a productgroup: 
@@ -42,6 +44,8 @@ If you click on a productgroup:
  - all sub-productgroup of this productgroup will be displayed in the productgroup navigation.
 
 ### List products
+
+**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v1/products/list-products
 
 A product must be attached to a productgroup. Initially all products will be displayed. 
 
@@ -53,9 +57,15 @@ A product must be attached to a productgroup. Initially all products will be dis
 When you click on a product, a new invoice item with this product will be created.
 
 ### Create new productgroup
+
+**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v1/products/create-a-productgroup
+
 You can create a productgroup in the main level or as a subproductgroup of an already exxisting productgroup.
 
 ### Create new product
+
+**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v1/products/create-a-productgroup
+
 When you create a product, you have to add it into a productgroup.
 You can set the price nominale to a specific price or to 0. If you set the nominale to 0, you can chosse a price everytime you add the product to a receipt.
 You can choose between specific product configurations to influence the receipt when adding a product to it. 
