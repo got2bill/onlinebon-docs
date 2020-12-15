@@ -2,8 +2,14 @@
 
 ### Authenticate
 To authenticate with OnlineBon you need to provide a **username** (email-address) and your private **password**.
-<img src="./images/authenticate.png" width="400" />
 
+![SESSION_START](./images/authenticate.png)
+
+**API-ENDPOINT:** [POST /authenticate](https://onlinebon.docs.apiary.io/#reference/authentication/authenticate/exchange-credentials-for-token)
+
+### Fetch data of currently logged user
+
+**API-ENDPOINT:** [GET /v2/me](https://onlinebon.docs.apiary.io/#reference/v2/user/get-logged-in-user)
 
 After the authentication the following rules apply to decide, which actions the user has available:
 

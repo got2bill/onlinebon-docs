@@ -10,20 +10,20 @@ There can be only 1 active session of a pos.
 
 ### Start a new session
 
-**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v2/sessions/start-a-session
+**API-ENDPOINT:** [POST /v2/sessions](https://onlinebon.docs.apiary.io/#reference/v2/sessions/start-a-session)
 
 A user has to start a session to use the POS and start creating receipts. He has to option to transfer change funds from the cashbook into the cashdesk.
 A user can only start a session if there is no other session active for this cashdesk.
 
-<img src="./images/session_start.png" width="400" />
+![SESSION_START](./images/session_start.png)
 
 ### End current session
 
-**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v2/sessions/end-a-session
+**API-ENDPOINT:** [PUT /v2/sessions/:id](https://onlinebon.docs.apiary.io/#reference/v2/sessions/end-a-session)
 
 A user with an active session can end this session every time. When ending the session, a session report will be created which summarize the activity during the session. 
 
-<img src="./images/session_end.png" width="400" />
+![SESSION_END](./images/session_end.png)
 
 ## Products
 
@@ -35,7 +35,7 @@ A user with an active session can end this session every time. When ending the s
 
 ### List productgroups
 
-**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v1/productgroups/list-productgroups
+**API-ENDPOINT:** [GET /productgroups](https://onlinebon.docs.apiary.io/#reference/v1/productgroups/list-productgroups)
 
 Productgroups can be be structured within multiple layers. Initially only productgroups of the root layer will be displayed.
 
@@ -45,7 +45,7 @@ If you click on a productgroup:
 
 ### List products
 
-**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v1/products/list-products
+**API-ENDPOINT:** [GET /products](https://onlinebon.docs.apiary.io/#reference/v1/products/list-products)
 
 A product must be attached to a productgroup. Initially all products will be displayed. 
 
@@ -58,13 +58,13 @@ When you click on a product, a new invoice item with this product will be create
 
 ### Create new productgroup
 
-**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v1/products/create-a-productgroup
+**API-ENDPOINT:** [POST /productgroups](https://onlinebon.docs.apiary.io/#reference/v1/products/create-a-productgroup)
 
 You can create a productgroup in the main level or as a subproductgroup of an already exxisting productgroup.
 
 ### Create new product
 
-**API-ENDPOINT:** https://onlinebon.docs.apiary.io/#reference/v1/products/create-a-productgroup
+**API-ENDPOINT:** [POST /productgroups](https://onlinebon.docs.apiary.io/#reference/v1/products/create-a-productgroup)
 
 When you create a product, you have to add it into a productgroup.
 You can set the price nominale to a specific price or to 0. If you set the nominale to 0, you can chosse a price everytime you add the product to a receipt.
