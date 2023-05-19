@@ -1,4 +1,4 @@
-## Gross / Net / Tax Calculations
+# Gross / Net / Tax Calculations
 
 These steps are performed to calculate the total amounts of the receipt. The nominal values of the products are always gross amounts.
 Rounding is always done to the nearest whole number (cent). Up to 4, round down; 5 and above, round up.
