@@ -11,4 +11,5 @@ OnlineBon Documentation
    :caption: Contents:
    
    functions/auth.md
+   functions/currency-values.md
    functions/pos.md
