@@ -12,5 +12,7 @@ OnlineBon Documentation
    
    functions/auth.md
    functions/currency-values.md
-   functions/tax-calculations.md
-   functions/pos.md
+   functions/receipts.md
+   functions/sessions.md
+   functions/products.md
+   functions/customers.md
