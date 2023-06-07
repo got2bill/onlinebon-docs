@@ -16,3 +16,4 @@ OnlineBon Documentation
    functions/sessions.md
    functions/products.md
    functions/customers.md
+   functions/webview-integration.md

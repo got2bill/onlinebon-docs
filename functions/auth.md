@@ -7,11 +7,6 @@ To authenticate with OnlineBon you need to provide a **username** (email-address
 
 **API-ENDPOINT:** [POST /authenticate](https://onlinebon.docs.apiary.io/#reference/authentication/authenticate/exchange-credentials-for-token)
 
-### Webview Authentication
-
-To enable the Mobile Apps to authenticate at the Web Application, they can use a custom header called **Webview-Authorization**. They have to provide this header on every page they want to access. This header has to contain a valid **JWT Token**.
-
-
 ### Fetch data of currently logged user
 
 **API-ENDPOINT:** [GET /v2/me](https://onlinebon.docs.apiary.io/#reference/v2/user/get-logged-in-user)
