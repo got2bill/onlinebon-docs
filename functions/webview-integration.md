@@ -40,6 +40,17 @@ When the user is using the *receipt database*, he can load a receipt directly in
   }
 ```
 
+
+### Cancel Receipt
+
+When the user is using the *receipt database*, he can cancel a receipt. The app will load the receipt directly into the POS a redirect to the checkout.
+
+```ts
+  function cancelReceiptInApp(receiptId: string) {
+      AndroidAdminJs.cancelReceipt(receiptId)
+  }
+```
+
 ### Toggle Navigation
 
 When using the navigation toggle in the webview context, we want to toggle the navigation of the app.
