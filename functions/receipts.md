@@ -1,5 +1,17 @@
 # Receipts
 
+## Receipt Types
+
+- Invoice (**RE**) - This is a normal invoice that you can create through the POS
+- Cancellation (**ST**) - This receipt type is used when you cancel a receipt of type RE.
+- Cost estimation (**KV**) - This type is used when you create an offer to a customer which is not yet an invoice
+- Opening (**ER**) - If you start a session, an opening receipt will be created. This receipt type is also used, when you transfer money from the cashbook to your current balance
+- Completion (**AB**) - If you end a session, an completion receipt will be created
+- Cashbook Receipt (**KA**) - This receipt type is used if you create a cashbook entry during a POS session is active. These receipts will be transfered to the cashbook as soon as the session is closed.
+
+#### Invoice
+
+
 ## Create a receipt
 
 **API-ENDPOINT:** [POST /v2/receipts](https://onlinebon.docs.apiary.io/#reference/v2/receipts/create-a-receipt)
