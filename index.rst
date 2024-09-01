@@ -17,3 +17,4 @@ OnlineBon Documentation
    functions/products.md
    functions/customers.md
    functions/webview-integration.md
+   functions/sumup.md
